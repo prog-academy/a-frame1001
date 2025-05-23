@@ -14,6 +14,7 @@
           boxEl.addEventListener('foo', function () {
             boxEl.setAttribute('color', 'blue');  
           });
+          // 動き始め直後にイベント発火(関数fooを実行)
           boxEl.emit('foo');
         }
       });
